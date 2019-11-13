@@ -81,7 +81,7 @@ kullanici = null;
 ```js
 function evlilik(erkek, kadin) {
   kadin.bey = erkek;
-  erkek.kadin = hanim;
+  erkek.hanim = kadin ;
 
   return {
     baba: erkek,
